@@ -26,14 +26,22 @@ public class PictureTester
     caterpillar.explore();
   }
   
-  /** Method to test mirrorTemple */
-  public static void testMirrorTemple()
+  public static void testMirrorVerticalRightToLeft()
   {
-    Picture temple = new Picture("temple.jpg");
-    temple.explore();
-    temple.mirrorTemple();
-    temple.explore();
-  }
+      Picture caterpillar = new Picture("caterpillar.jpg");
+      caterpillar.explore();
+      caterpillar.mirrorVerticalRightToLeft();
+      caterpillar.explore();
+    }
+  
+//   /** Method to test mirrorTemple */
+//   public static void testMirrorTemple()
+//   {
+//     Picture temple = new Picture("temple.jpg");
+//     temple.explore();
+//     temple.mirrorTemple();
+//     temple.explore();
+//   }
   
   /** Method to test the collage method */
   public static void testCollage()
